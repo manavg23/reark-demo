@@ -1,0 +1,5 @@
+<svg id="toggle_switch" data-name="toggle switch" xmlns="http://www.w3.org/2000/svg" width="63" height="32" viewBox="0 0 63 32">
+  <rect id="toggle_bg" data-name="toggle bg" width="63" height="32" rx="16" fill="#c6c6c6"/>
+  <circle id="switch" cx="14" cy="14" r="14" transform="translate(2 2)" fill="#fff"/>
+  <text id="_2D" data-name="2D" transform="translate(16 22)" fill="#696767" font-size="16" font-family="'\.AppleSystemUIFont'" font-weight="800"><tspan x="-11" y="0">2D</tspan></text>
+</svg>

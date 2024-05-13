@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="67" viewBox="0 0 85 67">
+  <g id="Asscher" transform="translate(23.9 14.9)">
+    <g id="Rectangle_140" data-name="Rectangle 140" transform="translate(-23.9 -14.9)" fill="#fff" stroke="#707070" stroke-width="0.5">
+      <path d="M0,0H80a5,5,0,0,1,5,5V67a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.5.25H80A4.75,4.75,0,0,1,84.75,5V66.5a.25.25,0,0,1-.25.25H.5a.25.25,0,0,1-.25-.25V.5A.25.25,0,0,1,.5.25Z" fill="none"/>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(0.1 0.1)">
+      <path id="Path_200" data-name="Path 200" d="M.1,4.482,4.571.1H33.022L37.4,4.482v28.54L33.111,37.4H4.659L.1,33.022Z" transform="translate(-0.1 -0.1)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_201" data-name="Path 201" d="M1.29,4.843,4.932,1.29H27.995l3.819,3.553V28.084l-3.642,3.73H4.843L1.29,28.084Z" transform="translate(2.233 2.233)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_202" data-name="Path 202" d="M2.33,5.289V23.912l2.694,2.961h18.8l2.961-3.079V5.289L23.617,2.24H5.2Z" transform="translate(4.272 4.096)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_203" data-name="Path 203" d="M3.05,5.567,5.3,3.05H20.725l2.339,2.517V20.547l-2.043,2.576H5.3L3.05,20.636Z" transform="translate(5.684 5.684)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_44" data-name="Line 44" x2="8.734" y2="6.869" transform="translate(0 4.382)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_45" data-name="Line 45" x1="6.513" y1="8.734" transform="translate(4.471)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_46" data-name="Line 46" y1="8.734" x2="6.513" transform="translate(26.409)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_47" data-name="Line 47" y1="6.869" x2="8.556" transform="translate(28.748 4.382)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_48" data-name="Line 48" x2="8.556" y2="6.691" transform="translate(28.748 26.231)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_49" data-name="Line 49" x2="6.306" y2="8.497" transform="translate(26.705 28.807)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_50" data-name="Line 50" x1="6.425" y2="8.497" transform="translate(4.559 28.807)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_51" data-name="Line 51" x1="8.734" y2="6.602" transform="translate(0 26.32)" fill="none" stroke="#000" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

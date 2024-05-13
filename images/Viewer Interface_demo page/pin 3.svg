@@ -1,0 +1,13 @@
+<svg id="pin_3" data-name="pin 3" xmlns="http://www.w3.org/2000/svg" width="156" height="84" viewBox="0 0 156 84">
+  <g id="pin3" transform="translate(0)">
+    <g id="Ellipse_29" data-name="Ellipse 29" transform="translate(0)" fill="rgba(129,129,129,0.44)" stroke="#fff" stroke-width="0.5">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="11.75" fill="none"/>
+    </g>
+    <text id="_3" data-name="3" transform="translate(12 16)" fill="#fff" font-size="10" font-family="'\.AppleSystemUIFont'"><tspan x="-3" y="0">3</tspan></text>
+  </g>
+  <g id="info_box" data-name="info box" transform="translate(12.142 12.142)" opacity="0.001">
+    <rect id="Rectangle_127" data-name="Rectangle 127" width="144" height="72" rx="5" transform="translate(-0.142 -0.142)" fill="rgba(198,198,198,0.25)"/>
+    <text id="Annotation_Details" data-name="Annotation Details" transform="translate(56.858 19.858)" fill="#818181" font-size="10" font-family="'\.AppleSystemUIFont'"><tspan x="-44" y="0">Annotation Details</tspan></text>
+  </g>
+</svg>

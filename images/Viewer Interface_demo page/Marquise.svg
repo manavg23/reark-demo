@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="70" viewBox="0 0 84 70">
+  <g id="Marquise" transform="translate(32.906 14.88)">
+    <g id="Rectangle_142" data-name="Rectangle 142" transform="translate(-32.906 -14.88)" fill="#fff" stroke="#707070" stroke-width="0.5">
+      <rect width="84" height="70" stroke="none"/>
+      <rect x="0.25" y="0.25" width="83.5" height="69.5" fill="none"/>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(0.094 0.12)">
+      <path id="Path_214" data-name="Path 214" d="M6.552.28l-2.51,5.6L1.67,19.559l2.455,13.57,2.427,5.847,2.537-5.764,2.62-13.6L9.089,5.8Z" transform="translate(2.678 0.161)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_215" data-name="Path 215" d="M1.93,1.65l4.3,4.358L10.618,1.65" transform="translate(3.135 2.57)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_216" data-name="Path 216" d="M1.93,15.723,6.26,11.31l4.358,4.413" transform="translate(3.135 19.553)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_217" data-name="Path 217" d="M.14,14.4,2.705,9.932,5.491,7.808,9.38,3.23l3.806,4.8,2.62,1.9,2.593,4.5-2.51,4.441-2.731,1.986L9.407,25.516,5.573,21.1,2.705,18.7Z" transform="translate(-0.012 5.348)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_218" data-name="Path 218" d="M5.255,2.31.98,5.151l.248,6.4L2.883,15.99l-1.655,4.33L.98,26.5,5.338,29.56" transform="translate(1.465 3.73)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_219" data-name="Path 219" d="M4.36,29.7l4.661-3.144L8.47,20.539,6.98,16.1l1.407-4.5.634-6.151L4.36,2.28" transform="translate(7.407 3.678)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_64" data-name="Line 64" x1="2.372" y2="0.165" transform="translate(15.794 15.114)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_65" data-name="Line 65" x1="2.289" y1="0.11" transform="translate(15.877 24.216)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_66" data-name="Line 66" y1="0.276" x2="2.289" transform="translate(0.404 24.051)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_67" data-name="Line 67" x2="2.289" y2="0.331" transform="translate(0.404 14.949)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_220" data-name="Path 220" d="M9.324,39.589C22.287,30.625,21.128,7.87,9.3.12-3.171,10.242-2.785,29.632,9.324,39.589Z" transform="translate(-0.094 -0.12)" fill="none" stroke="#000" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

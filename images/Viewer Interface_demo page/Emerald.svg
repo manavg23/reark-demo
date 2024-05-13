@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="70" viewBox="0 0 85 70">
+  <g id="Emerald" transform="translate(27.9 12.9)">
+    <g id="Rectangle_144" data-name="Rectangle 144" transform="translate(-27.9 -12.9)" fill="#fff" stroke="#707070" stroke-width="0.5">
+      <rect width="85" height="70" stroke="none"/>
+      <rect x="0.25" y="0.25" width="84.5" height="69.5" fill="none"/>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(0.1 0.1)">
+      <path id="Path_210" data-name="Path 210" d="M.1,6.743,6.837.1H22.63l6.643,6.643V37.012l-6.549,6.549H6.743L.1,37.2Z" transform="translate(-0.1 -0.1)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_211" data-name="Path 211" d="M.77,6.252,6.222.8H20.009l5.64,5.452V34.516l-5.358,5.358H6.222L.77,34.516Z" transform="translate(1.329 1.393)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_212" data-name="Path 212" d="M1.4,5.756v26.6l4.262,4.356H18.07l4.45-4.262V5.756L17.976,1.4H5.756Z" transform="translate(2.674 2.674)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <path id="Path_213" data-name="Path 213" d="M5.354,2.1,1.97,5.171V30.176l3.384,3.165H16.071l3.259-2.977V4.951L15.945,2.1Z" transform="translate(3.89 4.167)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_56" data-name="Line 56" x2="2.507" y2="6.267" transform="translate(6.737)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_57" data-name="Line 57" x1="5.86" y1="2.695" transform="translate(0 6.643)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_58" data-name="Line 58" x1="5.86" y2="2.757" transform="translate(0 34.343)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_59" data-name="Line 59" x1="2.601" y2="5.954" transform="translate(6.643 37.508)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_60" data-name="Line 60" x2="2.663" y2="5.954" transform="translate(19.96 37.508)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_61" data-name="Line 61" x2="5.954" y2="2.381" transform="translate(23.219 34.531)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_62" data-name="Line 62" y1="2.475" x2="5.954" transform="translate(23.219 6.643)" fill="none" stroke="#000" stroke-width="0.5"/>
+      <line id="Line_63" data-name="Line 63" y1="6.267" x2="2.695" transform="translate(19.835)" fill="none" stroke="#000" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

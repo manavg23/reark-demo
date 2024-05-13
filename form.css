@@ -1,0 +1,172 @@
+.navbar{
+    background: #000A2D 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 20px #00000029;
+opacity: 1;
+position: fixed;
+
+}
+.form-page-main{
+    width: 100%;
+    height: 890px;
+    text-align: center;
+    padding-top: 56px   ;
+
+
+}
+.form-page-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1535px;
+    height: 739px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-area{
+    display: flex;
+    width: 100%;
+    max-width: 607px;
+    height: 490px;
+  
+  
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  
+}
+.form-area-content{
+    width: 100%;
+    max-width: 607px;
+    height: 345px;
+    margin-top: 46px;
+    margin-left: 31px;
+
+}
+.form-image{
+    z-index: -1;
+   width:795px;
+   height: 486px;
+   padding-top: 200px;
+}
+#form-image-desktop{
+    width: 100%;
+
+    height: 100%;
+}
+#form-image-mobile{
+    display: none;
+}
+.heading{
+    text-align: left;
+    font: normal normal bold 35px/66px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+text-transform: capitalize;
+opacity: 1;
+margin-top:2px;
+}
+p{
+    text-align: left;
+    font: normal normal 300 25px/40px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+}
+.para-1{
+    margin-bottom: 25px;
+}
+.form-div{
+    width: 100%;
+    max-width:436px;
+    height:395px;
+    margin-top: 80px;
+    
+
+    margin-left: 31px;
+}
+.demo-form{
+    width: 100%;
+    max-width: 430px;
+    height:42px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #707070;
+border-radius: 5px;
+opacity: 1;
+margin-bottom: 24px;
+
+}
+::placeholder{
+    margin-left: 30px;
+    text-align: left;
+transform: translateX(10px);
+font: normal normal 300 18px/91px Open Sans;
+letter-spacing: 0px;
+opacity: 1;
+}
+.Company-name{
+    margin-bottom: 0px;
+}
+.label-tacbox{
+    text-align: left;
+font: italic normal 300 14px/38px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+
+
+}
+.form-submit-button{
+    width: 100%;
+    max-width: 70px;
+height: 31px;
+float:right;
+margin-right: 10px;
+background: #F17615 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+font: normal normal bold 14px/19px Open Sans,sans serif;
+letter-spacing: 0px;
+color: #FFFDFD;
+text-transform: uppercase;
+opacity: 1;
+border: none;
+}
+.form-page-section-2{
+    width: 100%;
+    height: 260px;
+    background: #FEF8EF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.subscribe-div>input::placeholder{
+    text-align: left;
+    font: normal normal 300 12px/3px Open Sans;
+    letter-spacing: 0.24px;
+    color: #000A2D;
+    opacity: 1;
+    width: 140px;
+}
+.form-message{
+    text-align: left;
+font: normal normal 300 18px/91px Open Sans;
+letter-spacing: 0px;
+opacity: 1;
+color: #000A2D;
+
+}
+.form-mobile{
+    display: none;
+}
+.form-mobile>p{
+    width: 100%;
+    max-width: 294px;
+height: 39px;
+text-align: center;
+font: normal normal normal 14px/20px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+margin-left: auto;
+margin-right: auto;
+
+}

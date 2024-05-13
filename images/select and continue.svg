@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="52" viewBox="0 0 200 52">
+  <g id="select_and_continue" data-name="select and continue" transform="translate(-0.732 0.206)">
+    <g id="Rectangle_109" data-name="Rectangle 109" transform="translate(0.732 -0.206)" fill="#000a2d" stroke="#707070" stroke-width="1">
+      <rect width="200" height="52" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="199" height="51" rx="4.5" fill="none"/>
+    </g>
+    <text id="Select_and_continue-2" data-name="Select and continue" transform="translate(100.732 31.794)" fill="#fff" font-size="18" font-family="Rufina-Bold, Rufina" font-weight="700"><tspan x="-83" y="0">Select and continue</tspan></text>
+  </g>
+</svg>

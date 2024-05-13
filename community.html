@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jewelive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://use.typekit.net/eto7xeo.css">
+<script src="index.js"></script>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="community.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="side-menu" id="side-menu">
+        <div class="side-buttons">
+            <a href="demo"> <button class="nav-item-demopage">demo page</button></a> 
+    <a href="form"><button class="Request-Demo-Button" id="Request-Demo-Button">REQUEST DEMO</button></a>
+        </div>
+<a href="index"><div class="side-menu-items"><h1>Home</h1></div></a>
+<a href="product"><div class="side-menu-items"><h1>Product</h1></div></a>
+<a href="gallery"><div class="side-menu-items"><h1>Gallery</h1></div></a>
+<a href="pricing"><div class="side-menu-items"><h1>Pricing</h1></div></a>
+<div class="side-menu-items" id="side-menu-community" onclick="mobilecommunitydropdown()"><h1>Community</h1><img src="./images/Home Page/Icon ionic-ios-arrow-back.svg" alt="" class="down-arrow">
+    <div id="dropdown-mobile-community" style="display: none;"><a href="community"><div class="side-menu-items company-dropdown-mobile-items"><h1>All Users</h1></div></a>
+    <a href="careers"><div class="side-menu-items company-dropdown-mobile-items"><h1>Blog</h1></div></a>
+    </div>
+</div>
+<div class="side-menu-items" id="company-dropdown-mobile" onclick="dropdownmobile()"><h1>Company</h1><img src="./images/Home Page/Icon ionic-ios-arrow-back.svg" alt="" class="down-arrow">
+    <div id="dropdown-mobile" style="display: none;"><a href="about"><div class="side-menu-items company-dropdown-mobile-items"><h1>About us</h1></div></a>
+    <a href="careers"><div class="side-menu-items company-dropdown-mobile-items"><h1>Careers</h1></div></a>
+    <a href="contact"><div class="side-menu-items company-dropdown-mobile-items"><h1>Contact Us</h1></div></a></div>
+</div>
+
+    </div>
+    <!-- navbar secion start -->
+<div id="main-community">
+    <nav class="navbar" id="navbar">
+        <div class="nav-list">
+            <img  id="Menu-icon" src="./images/Home Page/Menu icon.svg" alt="">
+            <a href="index"><div class="Jewelvue">
+           <h1>Jewelive</h1>
+            </div></a>
+            
+           
+         <a href="product"><div class="nav-item-products">Product</div></a>
+        
+
+            <a href="gallery"><div class="nav-item-gallery">Gallery</div></a>
+            
+            <a href="pricing"><div class="nav-item-gallery">Pricing</div></a>
+            <div class="nav-item-community" onclick="dropdowncommunity()">Community</div>
+            <div class="community-dropdown" id="community-dropdown">
+                <div><a href="community" class="about-us">All Users</a></div>
+                <div></div>   
+                <div><a href="community" class="careers">Blog</a></div>
+ 
+                </div>
+           <!-- <a href=""> <div class="nav-item-pricing">Pricing</div></a> -->
+            <div class="nav-item-company" onclick="dropdown()">Company</div>
+            <div class="company-dropdown" id="company-dropdown">
+            <div><a href="about" class="about-us">About Us</a></div>
+            <div></div>   
+            <div><a href="careers" class="careers">Careers</a></div>
+            <div><a href="contact" class="contact-us">Contact Us</a></div>
+            </div>
+    
+            
+        </div>
+        <div class="nav-list-right">
+        <a href="demo"> <button class="nav-item-demopage">demo page</button></a> 
+        <a href="form"><button class="Request-Demo-Button" id="Request-Demo=Button">REQUEST DEMO</button></a>
+
+
+    </div>
+        
+        </nav>
+
+<section class="community-main">
+    <h1>Blog</h1>
+    <h2 id="community-subheading">Get the latest news and insights on eCommerce trends, technology, 3D Visualization, Augmented Reality and all things Jewelry</h2>
+</section>
+<section class="community-page-main" id="community-page-main">
+    <div class="community-grid" id="community-grid">
+        <div class="community-grid-div">
+            <img src="./images/community/image-8.png " alt="">
+            <h1>Exploring The Beauty Of Jewelry In 3D</h1>
+            <h2>A new way to experience the sparkle and shine.</h2>
+        </div>
+        <div class="community-grid-div">
+            <img src="./images/community/image-7.png" alt="">
+            <h1>Experience A New Dimension Of Jewelry Ecommerce</h1>
+            <h2>Explore the full potential of using JeweLIVE.</h2>
+        </div>
+        <div class="community-grid-div">
+            <img src="./images/community/image-6.png" alt="">
+            <h1>How To Keep Online Shoppers Engaged?</h1>
+            <h2>Leveraging JeweLIVE’s cutting-edge technology to improve customer experience.</h2>
+        </div>
+        <div class="community-grid-div desktop-community-hidden">
+            <img src="./images/community/image-5.png " alt="">
+            <h1>3D Vs. Photography: Benefits Of Real-Time 3D</h1>
+            <h2>Learn how JeweLIVE can benefit your business.</h2>
+        </div>
+        <div class="community-grid-div desktop-community-hidden desktop-community-hidden">
+            <img src="./images/community/image-4.png" alt="">
+            <h1>Augmented Reality In E-Commerce</h1>
+            <h2>How AR can change the face of Jewelry eCommerce.</h2>
+        </div>
+        <div class="community-grid-div mobile-community-hidden desktop-community-hidden">
+            <img src="./images/community/image-3.png" alt="">
+            <h1>Reducing Costs And Increasing Sales</h1>
+            <h2>How to save costs and reduce returns with JeweLIVE’s disruptive technologies.</h2>
+        </div>
+        <div class="community-grid-div mobile-community-hidden desktop-community-hidden">
+            <img src="./images/community/image-2.png" alt="">
+            <h1>Going Global With Your Jewelry Business</h1>
+            <h2>How digital strategies can help your jewelry brand reach new heights.</h2>
+        </div>
+        <div class="community-grid-div mobile-community-hidden desktop-community-hidden">
+            <img src="./images/community/image-1.png" alt="">
+            <h1>The Key To Staying Competitive In 2023</h1>
+            <h2>Differentiate your business and prepare for the future of retail with 3D and AR.</h2>
+        </div>
+        <div class="community-grid-div mobile-community-hidden desktop-community-hidden">
+            <img src="./images/community/image.png" alt="">
+            <h1>What’s New: Latest Trends In Fine Jewelry</h1>
+            <h2>Read about the latest insights and trends in the jewelry industry.</h2>
+        </div>
+        
+    </div>
+    <div class="next-community-div">
+<button class="next-community" id="desktop-more-button">More</button>
+</div>
+<div class="more-button-div">
+    <button class="more-button" id="more-button">More</button>
+</div>
+<div class="scroll-to-top-div" id="scroll-to-top-div">
+    <button class="scroll-to-top-button" id="scroll-to-top-button">Scroll to Top</button>
+</div>
+</section>
+
+
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-elements logo">
+                    <h1>JEWELIVE</h1>
+                    <p>jeweLIVE’s proprietary 3D visualization technology provides an interactive solution for jewelry eCommerce, helping businesses create memorable buying experiences that drive customer engagement.</p>
+                </div>
+                <div class=" footer-elements pages">Pages<br><div class="footer-sub-elements"><a href="index">Home</a><br><a href="product">Product</a><br><a href="gallery">Gallery</a><br><a href="pricing">Pricing</a><br><a href="community">Community</a><br><a href="demo">Demo Page</a>
+                </div></div>
+            <div class=" footer-elements Company-footer">Company<br><div class="footer-sub-elements"><a href="about">About Us</a><br><a href="careers">Careers</a><br></div></div>
+            <!-- <div class=" footer-elements Careers">Careers<br><div class="footer-sub-elements">About Us<br>Apply</div></div> -->
+            <div class=" footer-elements Contact-Us">Contact Us<br><div class="footer-sub-elements"><a>info@jewelive.io</a><br><a href="form">Contact Form</a><br><a href="form">Request Demo</a></div></div>
+        <div class="footer-elements privacy">Privacy<br><div class="footer-sub-elements"><a>Terms Of Use</a><br><a>Privacy Policy</a><br><a>EULA</a></div></div>
+            <div class ="footer-elements subscribe desktop">Subscribe<br>
+        <div class="subscribe-div">
+            <form id="subscribe-form">
+                
+        <input type="email" placeholder="Enter your email here*" id="subscribe-email">
+        <button type="submit">Join</button>
+        <div class="subscribe-message" id="subscribe-message"></div>
+        </form>
+        </div>
+        </div>
+        <div class ="footer-elements subscribe mobile">Subscribe to Our Mailing list<br>
+            <div class="subscribe-div">
+                <form id="subscribe-form">
+            <input type="email" placeholder="Enter your email here*" id="subscribe-email">
+            <button type="submit">Join</button>
+            <div class="subscribe-message" id="subscribe-message"></div>
+            </form>
+            </div>
+            </div>
+            </div>
+            <div class="copyright">Copyright © 2023 Real-Time 3D Pvt Ltd.<br class="copyright-break"> All Rights Reserved.</div>
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/jewelvue3d/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="./images/Home Page/socials/icons8-instagram.svg"></a>
+        <a href="https://www.facebook.com/jewellvue/" target="_blank"><img src="./images/Home Page/socials/icons8-facebook-f.svg" alt=""></a>
+        <a href="https://twitter.com/Jewelvue3d" target="_blank"><img src="./images/Home Page/socials/icons8-twitter.svg" alt=""></a>
+        <a href="https://www.youtube.com/channel/UCweIR_Bp6rhrEza0OcOZo1A/videos" target="_blank"><img src="./images/Home Page/socials/icons8-youtube.svg" alt=""></a>
+        <a href="https://vimeo.com/jewelvue" target="_blank"><img src="./images/Home Page/socials/icons8-vimeo.svg" alt=""></a>
+        </div>    
+        
+        </section>
+</div>
+<script src="community.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="67" viewBox="0 0 84 67">
+  <g id="Round" transform="translate(21.9 13.9)">
+    <g id="Rectangle_136" data-name="Rectangle 136" transform="translate(-21.9 -13.9)" fill="#fff" stroke="#000a2d" stroke-width="2">
+      <path d="M5,0H84a0,0,0,0,1,0,0V67a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+      <path d="M5,1H82a1,1,0,0,1,1,1V65a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V5A4,4,0,0,1,5,1Z" fill="none"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(0.1 0.1)">
+      <path id="Path_193" data-name="Path 193" d="M5.776,5.806,13.619,2.47l8.056,3.336,3.371,7.95L21.923,21.6l-7.737,3.229L5.776,21.953l-3.336-8.3Z" transform="translate(5.864 5.941)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_194" data-name="Path 194" d="M1.69,10.632l6-3.017L10.7,1.76l4.827,2.52,5.288-2.52,2.768,5.856,5.891,3.017-2.52,4.933,2.52,4.862-5.643,2.981L20.819,29.3,16.1,26.638,10.562,29.3,7.688,23.763l-6-3.123,2.662-5.181Z" transform="translate(3.953 4.131)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_195" data-name="Path 195" d="M5.767,5.98,5.59,14.71l-5.43,4.9,5.5,5.11.248,8.375,8.553.284L19.5,38.914l5.181-5.607,8.375-.177.319-8.624,5.465-4.862-5.5-4.933-.106-8.73-8.553-.106L19.537.16,14.6,5.838Z" transform="translate(0.053 0.053)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_12" data-name="Line 12" x2="2.768" y2="4.33" transform="translate(11.889 1.562)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_13" data-name="Line 13" x1="2.768" y2="4.152" transform="translate(24.771 1.739)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_14" data-name="Line 14" x1="4.259" y2="3.123" transform="translate(33.431 11.64)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_15" data-name="Line 15" x1="4.081" y1="2.626" transform="translate(33.431 24.558)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_16" data-name="Line 16" x1="2.768" y1="4.046" transform="translate(24.771 33.431)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_17" data-name="Line 17" y1="4.046" x2="2.52" transform="translate(11.995 33.431)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_18" data-name="Line 18" y1="2.555" x2="3.904" transform="translate(1.739 24.771)" fill="none" stroke="#000" stroke-width="1"/>
+      <line id="Line_19" data-name="Line 19" x2="3.904" y2="3.123" transform="translate(1.739 11.64)" fill="none" stroke="#000" stroke-width="1"/>
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="19.554" cy="19.554" r="19.554" fill="none" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

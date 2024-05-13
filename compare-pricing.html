@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jewelive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<script src="index.js"></script>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="compare.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="https://use.typekit.net/eto7xeo.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rufina&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar secion start -->
+   
+    <div class="side-menu" id="side-menu" >
+        <div class="side-buttons">
+            <a href="demo"> <button class="nav-item-demopage">demo page</button></a> 
+    <a href="form"><button class="Request-Demo-Button" id="Request-Demo-Button">REQUEST DEMO</button></a>
+        </div>
+<a href="index"><div class="side-menu-items"><h1>Home</h1></div></a>
+<a href="product"><div class="side-menu-items"><h1>Product</h1></div></a>
+<a href="gallery"><div class="side-menu-items"><h1>Gallery</h1></div></a>
+<a href="pricing"><div class="side-menu-items"><h1>Pricing</h1></div></a>
+<div class="side-menu-items" id="side-menu-community" onclick="mobilecommunitydropdown()"><h1>Community</h1><img src="./images/Home Page/Icon ionic-ios-arrow-back.svg" alt="" class="down-arrow">
+    <div id="dropdown-mobile-community" style="display: none;"><a href="community"><div class="side-menu-items company-dropdown-mobile-items"><h1>All Users</h1></div></a>
+    <a href="careers"><div class="side-menu-items company-dropdown-mobile-items"><h1>Blog</h1></div></a>
+    </div>
+</div>community
+<div class="side-menu-items" id="company-dropdown-mobile" onclick="dropdownmobile()"><h1>Company</h1><img src="./images/Home Page/Icon ionic-ios-arrow-back.svg" alt="" class="down-arrow">
+    <div id="dropdown-mobile" style="display: none;"><a href="about"><div class="side-menu-items company-dropdown-mobile-items"><h1>About us</h1></div></a>
+    <a href="careers"><div class="side-menu-items company-dropdown-mobile-items"><h1>Careers</h1></div></a>
+    <a href="contact"><div class="side-menu-items company-dropdown-mobile-items"><h1>Contact Us</h1></div></a></div>
+</div>
+
+    </div>
+    <!-- navbar secion start -->
+<div  id="main-compare">
+    <nav class="navbar" id="navbar">
+        <div class="nav-list">
+            <img  id="Menu-icon" src="./images/Home Page/Menu icon.svg" alt="" >
+            <a href="index"><div class="Jewelvue">
+           <h1>Jewelive</h1>
+            </div></a>
+            
+           
+         <a href="product"><div class="nav-item-products">Product</div></a>
+        
+
+            <a href="gallery"><div class="nav-item-gallery">Gallery</div></a>
+            <a href="pricing"><div class="nav-item-gallery">Pricing</div></a>
+            <div class="nav-item-community" onclick="dropdowncommunity()">Community</div>
+            <div class="community-dropdown" id="community-dropdown">
+                <div><a href="community" class="about-us">All Users</a></div>
+                <div></div>   
+                <div><a href="community" class="careers">Blog</a></div>
+ 
+                </div>
+           <!-- <a href=""> <div class="nav-item-pricing">Pricing</div></a> -->
+            <div class="nav-item-company" onclick="dropdown()">Company</div>
+            <div class="company-dropdown" id="company-dropdown">
+            <div><a href="about" class="about-us">About Us</a></div>
+            <div></div>   
+            <div><a href="careers" class="careers">Careers</a></div>
+            <div><a href="contact" class="contact-us">Contact Us</a></div>
+            </div>
+    
+          
+            
+        </div>
+        <div class="nav-list-right">
+        <a href="demo"> <button class="nav-item-demopage">demo page</button></a> 
+        <a href="form"><button class="Request-Demo-Button" id="Request-Demo=Button">REQUEST DEMO</button></a>
+
+
+    </div>
+        
+        </nav>
+
+<section class="compare-main">
+
+    <h1>Compare Plans</h1>
+    <h2>Choose a plan that best fits your business needs</h2>
+</section>
+<section class="compare-table-main-section">
+<table class="compare-table">
+<tr class="table-heading">
+    <th class="features-compare">Features</th>
+    <th class="pro-compare">Pro</th>
+    <th class="premium-compare">Premium</th>
+    <th class="enterprise-compare">Enterprise</th>
+</tr>
+<tr>
+    <td class="button-row"></td>
+    <td class="button-row"><button class="get-pro-compare">Get Pro</button></td>
+    <td class="button-row"><button class="get-pro-compare">Get premium</button></td>
+    <td class="button-row"><button class="get-pro-compare">Get Enterprise</button></td>
+</tr>
+<tr class="first-row">
+    <td class="compare-table-text">dww</td>
+</tr>
+<tr>
+    <td class="compare-table-text">Model uploads/month</td>
+    <td class="compare-table-text">Upto 300 models</td>
+    <td class="compare-table-text">Upto 500 models</td>
+    <td class="compare-table-text">Custom</td>
+</tr>
+<tr>
+    <td class="compare-table-text">Maximum Size Per Model</td>
+    <td class="compare-table-text">Upto 50MB</td>
+    <td class="compare-table-text">Upto 100MB</td>
+    <td class="compare-table-text">Upto 500MB</td>
+</tr>
+<tr>
+    <td class="compare-table-text">Number of websites/platforms</td>
+    <td class="compare-table-text">1 Website</td>
+    <td class="compare-table-text">2 Websites</td>
+    <td class="compare-table-text">Multiple Platforms</td>
+</tr>
+<tr>
+    <td class="compare-table-text">Private Uploads</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text"><b>3D Features</b></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+
+<tr>
+    <td class="compare-table-text">Annotations</td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text">Camera Limits</td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text">HD Screenshots</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text">Fullscreen Mode</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text"><b>Embedding</b></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text">Remove “Powered by JeweLIVE”</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text">Branding (Custom BG, logo, etc)</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text"><b>3D Configurator</b></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text">3D Configurators</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text"><b>Augmented Reality</b></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text">App-free Augmented Reality</td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text"><b>Others</b></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"></td>
+</tr>
+<tr>
+    <td class="compare-table-text">Support</td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text">Dedicated Support</td>
+</tr>
+<tr>
+    <td class="compare-table-text">Analytics</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="compare-table-text">3D Content Marketplace</td>
+    <td class="compare-table-text"></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+    <td class="compare-table-text"><img src="./images/right-compare/right.png" alt=""></td>
+</tr>
+
+    
+</table>
+
+<div class="last-row"><h1>And Many More Features Under Development!</h1></div>
+
+<div class="compare-mobile-view">
+<h1>Compare Features</h1>
+<div class="compare-mobile-headings">
+<div class="compare-heading-pro" id="compare-heading-pro">Pro</div>
+<div class="compare-heading-premium" id="compare-heading-premium">Premium</div>
+<div class="compare-heading-enterprise" id="compare-heading-enterprise">Enterprise</div>
+</div>
+<table class="mobile-table" id="mobile-table-pro">
+<tr>
+    <td class="mobile-table-text">Model uploads</td>
+    <td class="mobile-table-text" id="model-uploads">Upto 300</td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Max. Size per model</td>
+    <td class="mobile-table-text" id="max-size">Upto 50MB</td>
+</tr>
+<tr>
+    <td class="mobile-table-text">No. of websites/platforms</td>
+    <td class="mobile-table-text" id="website-count">1 Website</td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Private Uploads</td>
+    <td class="mobile-table-text" id="private-uploads"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text"><b>3D Features</b></td>
+    <td class="mobile-table-text" id="3D Features"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Annotations</td>
+    <td class="mobile-table-text" id="annotations"><img src="./images/right-mobile/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Camera Limits</td>
+    <td class="mobile-table-text" id="camera-limits"><img src="./images/right-mobile/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">HD Screenshots</td>
+    <td class="mobile-table-text" id="hd-screenshots"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Fullscreen Mode</td>
+    <td class="mobile-table-text" id="fullscreen-mode"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text"><b>Embedding</b></td>
+    <td class="mobile-table-text" id="embedding"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Remove “Powered by JeweLIVE”</td>
+    <td class="mobile-table-text" id="remove-watermark"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Custom Branding</td>
+    <td class="mobile-table-text" id="custom-branding"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text"><b>3D Configurator</b></td>
+    <td class="mobile-table-text" id="3d-config"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">3D Configurators</td>
+    <td class="mobile-table-text" id="3d-configs"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Augmented Reality</td>
+    <td class="mobile-table-text" id="aug-reality"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">App-free AR</td>
+    <td class="mobile-table-text" id="app-ar"><img src="./images/right-mobile/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="mobile-table-text"><b>Others</b></td>
+    <td class="mobile-table-text" id="others"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Support</td>
+    <td class="mobile-table-text" id="support"><img src="./images/right-mobile/right.png" alt=""></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">Analytics</td>
+    <td class="mobile-table-text" id="analytics"></td>
+</tr>
+<tr>
+    <td class="mobile-table-text">3D Content Marketplace</td>
+    <td class="mobile-table-text" id="3d-content"></td>
+</tr>
+
+</table>
+
+<table class="mobile-table" id="mobile-table-premium">
+    <tr>
+        <td class="mobile-table-text">Model uploads</td>
+        <td class="mobile-table-text" id="model-uploads">Upto 500</td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Max. Size per model</td>
+        <td class="mobile-table-text" id="max-size">Upto 100MB</td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">No. of websites/platforms</td>
+        <td class="mobile-table-text" id="website-count">2 Websites</td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Private Uploads</td>
+        <td class="mobile-table-text" id="private-uploads"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text"><b>3D Features</b></td>
+        <td class="mobile-table-text" id="3D Features"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Annotations</td>
+        <td class="mobile-table-text" id="annotations"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Camera Limits</td>
+        <td class="mobile-table-text" id="camera-limits"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">HD Screenshots</td>
+        <td class="mobile-table-text" id="hd-screenshots"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Fullscreen Mode</td>
+        <td class="mobile-table-text" id="fullscreen-mode"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text"><b>Embedding</b></td>
+        <td class="mobile-table-text" id="embedding"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Remove “Powered by JeweLIVE”</td>
+        <td class="mobile-table-text" id="remove-watermark"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Custom Branding</td>
+        <td class="mobile-table-text" id="custom-branding"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text"><b>3D Configurator</b></td>
+        <td class="mobile-table-text" id="3d-config"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">3D Configurators</td>
+        <td class="mobile-table-text" id="3d-configs"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Augmented Reality</td>
+        <td class="mobile-table-text" id="aug-reality"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">App-free AR</td>
+        <td class="mobile-table-text" id="app-ar"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text"><b>Others</b></td>
+        <td class="mobile-table-text" id="others"></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Support</td>
+        <td class="mobile-table-text" id="support"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">Analytics</td>
+        <td class="mobile-table-text" id="analytics"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    <tr>
+        <td class="mobile-table-text">3D Content Marketplace</td>
+        <td class="mobile-table-text" id="3d-content"><img src="./images/right-mobile/right.png" alt=""></td>
+    </tr>
+    
+    </table>
+    <table class="mobile-table" id="mobile-table-enterprise">
+        <tr>
+            <td class="mobile-table-text">Model uploads</td>
+            <td class="mobile-table-text" id="model-uploads">Custom</td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Max. Size per model</td>
+            <td class="mobile-table-text" id="max-size">Upto 500MB</td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">No. of websites/platforms</td>
+            <td class="mobile-table-text" id="website-count">Multiple</td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Private Uploads</td>
+            <td class="mobile-table-text" id="private-uploads"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text"><b>3D Features</b></td>
+            <td class="mobile-table-text" id="3D Features"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Annotations</td>
+            <td class="mobile-table-text" id="annotations"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Camera Limits</td>
+            <td class="mobile-table-text" id="camera-limits"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">HD Screenshots</td>
+            <td class="mobile-table-text" id="hd-screenshots"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Fullscreen Mode</td>
+            <td class="mobile-table-text" id="fullscreen-mode"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text"><b>Embedding</b></td>
+            <td class="mobile-table-text" id="embedding"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Remove “Powered by JeweLIVE”</td>
+            <td class="mobile-table-text" id="remove-watermark"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Custom Branding</td>
+            <td class="mobile-table-text" id="custom-branding"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text"><b>3D Configurator</b></td>
+            <td class="mobile-table-text" id="3d-config"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">3D Configurators</td>
+            <td class="mobile-table-text" id="3d-configs"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Augmented Reality</td>
+            <td class="mobile-table-text" id="aug-reality"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">App-free AR</td>
+            <td class="mobile-table-text" id="app-ar"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text"><b>Others</b></td>
+            <td class="mobile-table-text" id="others"></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Support</td>
+            <td class="mobile-table-text" id="support">Dedicated</td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">Analytics</td>
+            <td class="mobile-table-text" id="analytics"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        <tr>
+            <td class="mobile-table-text">3D Content Marketplace</td>
+            <td class="mobile-table-text" id="3d-content"><img src="./images/right-mobile/right.png" alt=""></td>
+        </tr>
+        
+        </table>
+
+<div class="last-row-mobile">And Many More Features Under Development!</div>
+
+
+<div class="compare-mobile-button-div">
+<button class="get-pro-mobile-button">Get Pro</button>
+</div>
+</div>
+
+</section>
+
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-elements logo">
+                    <h1>JEWELIVE</h1>
+                    <p>jeweLIVE’s proprietary 3D visualization technology provides an interactive solution for jewelry eCommerce, helping businesses create memorable buying experiences that drive customer engagement.</p>
+                </div>
+                <div class=" footer-elements pages">Pages<br><div class="footer-sub-elements"><a href="index">Home</a><br><a href="product">Product</a><br><a href="gallery">Gallery</a><br><a href="pricing">Pricing</a><br><a href="community">Community</a><br><a href="demo">Demo Page</a>
+                </div></div>
+            <div class=" footer-elements Company-footer">Company<br><div class="footer-sub-elements"><a href="about">About Us</a><br><a href="careers">Careers</a><br></div></div>
+            <!-- <div class=" footer-elements Careers">Careers<br><div class="footer-sub-elements">About Us<br>Apply</div></div> -->
+            <div class=" footer-elements Contact-Us">Contact Us<br><div class="footer-sub-elements"><a>info@jewelive.io</a><br><a href="form">Contact Form</a><br><a href="form">Request Demo</a></div></div>
+        <div class="footer-elements privacy">Privacy<br><div class="footer-sub-elements"><a>Terms Of Use</a><br><a>Privacy Policy</a><br><a>EULA</a></div></div>
+            <div class ="footer-elements subscribe desktop">Subscribe<br>
+        <div class="subscribe-div">
+            <form id="subscribe-form">
+                
+        <input type="email" placeholder="Enter your email here*" id="subscribe-email">
+        <button type="submit">Join</button>
+        <div class="subscribe-message" id="subscribe-message"></div>
+        </form>
+        </div>
+        </div>
+        <div class ="footer-elements subscribe mobile">Subscribe to Our Mailing list<br>
+            <div class="subscribe-div">
+                <form id="subscribe-form">
+            <input type="email" placeholder="Enter your email here*" id="subscribe-email">
+            <button type="submit">Join</button>
+            <div class="subscribe-message" id="subscribe-message"></div>
+            </form>
+            </div>
+            </div>
+            </div>
+            <div class="copyright">Copyright © 2023 Real-Time 3D Pvt Ltd.<br class="copyright-break"> All Rights Reserved.</div>
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/jewelvue3d/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="./images/Home Page/socials/icons8-instagram.svg"></a>
+        <a href="https://www.facebook.com/jewellvue/" target="_blank"><img src="./images/Home Page/socials/icons8-facebook-f.svg" alt=""></a>
+        <a href="https://twitter.com/Jewelvue3d" target="_blank"><img src="./images/Home Page/socials/icons8-twitter.svg" alt=""></a>
+        <a href="https://www.youtube.com/channel/UCweIR_Bp6rhrEza0OcOZo1A/videos" target="_blank"><img src="./images/Home Page/socials/icons8-youtube.svg" alt=""></a>
+        <a href="https://vimeo.com/jewelvue" target="_blank"><img src="./images/Home Page/socials/icons8-vimeo.svg" alt=""></a>
+        </div>    
+        
+        </section>
+
+
+</div>
+<script src="compare.js"></script>
+</body></html>
